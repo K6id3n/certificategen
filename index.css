@@ -27,6 +27,7 @@ body{
 .menubut{
 
     align-self: flex-start;
+    padding: 1dvw;
 
 }
 
@@ -40,9 +41,38 @@ body{
 
 .startbox{
 
-    height: 70dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50dvh;
     background-color: rgb(187, 199, 164);
     padding: 1dvw;
+    padding-bottom: 10dvh;
+
+}
+
+.start{
+
+    margin-bottom: 20dvh;
+    font-size: xx-large;
+    width: 25dvw;
+    text-align: center;
+
+}
+
+.startbut{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(231, 90, 124);
+    width: 14dvw;
+    height: 7dvh;
+    font-size: x-large;
+    border-radius: 20px;
 
 }
 

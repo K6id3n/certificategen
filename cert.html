@@ -13,41 +13,49 @@
 
     <nav class="nav">
         <h1 class="title">Gen.cir</h1>
-        <img src="imgs/Menu.png" alt="menubutton">
+        <img src="imgs/Menu.png" alt="menubutton" class="menubut">
     </nav>
 
-    <section class="inpform">
+    <section class="inpcont">
+        <section class="inpform">
 
-        <h2>Input Form</h2>
+            <h2 class="inptitle">Input Form</h2>
 
-        <form action="">
-            <label for="name"></label>
-            <input type="text" name="name" id="nameinp">
-
-            <input list="awards" name="award" id="award">
-            <datalist id="awards">
-                <option value="best dressed">
-                <option value="class clown">
-                <option value="smartest">
-                <option value="most creative">
-            </datalist>
-
-            <label for="dat"></label>
-            <input type="text" name="dat" id="datinp">
-            <label for="namepres"></label>
-            <input type="text" name="namepres" id="namepresinp">
-            <button type="submit" class="inputent">Enter</button>
-        </form>
+            <form class="frm">
+                <section class="inprowuno">
+                <label for="name">Recipient</label>
+                <input type="text" name="name" id="nameinp" class="inpbox">
+                <label for="award">Award</label>
+                <input list="awards" name="award" id="award" class="inpbox">
+                <datalist id="awards">
+                    <option value="best dressed">
+                    <option value="class clown">
+                    <option value="smartest">
+                    <option value="most creative">
+                </datalist>
+                </section>
+                <section class="inprowdos">
+                <label for="dat">Date</label>
+                <input type="text" name="dat" id="datinp" class="inpbox">
+                <label for="namepres">Presenter</label>
+                <input type="text" name="namepres" id="namepresinp" class="inpbox">
+                
+                </section>
+                <button type="submit" class="inputent">Enter</button>
+            </form>
+        </section>
     </section>
     <section class="content">
         <h2>Certificate appears here</h2>
 
         <button id="printbut" class="print but">Print</button>
     </section>
-     
+
     <footer class="footer">
         <p>Created by Kaiden Garza</p>
-        <img src="imgs/GitHub.png" alt="githublogo">
+        <a href="https://github.com/K6id3n/certificategen" class="gitlogo">
+            <img src="imgs/GitHub.png" alt="githublogo">
+        </a>
     </footer>
 
 
