@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gen.cir</title>
     <link rel="stylesheet" href="cert.css">
-    <script src="cert.js"></script>
 </head>
 
 <body>
@@ -20,35 +19,63 @@
         <section class="inpform">
 
             <h2 class="inptitle">Input Form</h2>
-
             <form class="frm">
-                <section class="inprowuno">
-                <label for="name">Recipient</label>
-                <input type="text" name="name" id="nameinp" class="inpbox">
-                <label for="award">Award</label>
-                <input list="awards" name="award" id="award" class="inpbox">
-                <datalist id="awards">
-                    <option value="best dressed">
-                    <option value="class clown">
-                    <option value="smartest">
-                    <option value="most creative">
-                </datalist>
+
+                <section class="inprow">
+                    <section class="inp">
+
+                        <p>Recipient:</p>
+
+                        <input type="text" name="name" id="name">
+
+                    </section>
+
+                    <section class="inp">
+
+                        <p>Award Given:</p>
+
+                        <input type="text" name="award" id="award">
+
+                    </section>
                 </section>
-                <section class="inprowdos">
-                <label for="dat">Date</label>
-                <input type="text" name="dat" id="datinp" class="inpbox">
-                <label for="namepres">Presenter</label>
-                <input type="text" name="namepres" id="namepresinp" class="inpbox">
-                
+
+                <section class="inprow">
+                    <section class="inp">
+
+                        <p>Issued By:</p>
+
+                        <input type="text" name="isser" id="isser">
+
+                    </section>
+
+                    <section class="inp">
+
+                        <p>Reveived on:</p>
+
+                        <input type="text" name="date" id="date">
+
+                    </section>
                 </section>
-                <button type="submit" class="inputent">Enter</button>
+                <button type="submit">Enter</button>
             </form>
         </section>
     </section>
     <section class="content">
         <h2>Certificate appears here</h2>
+        <section class="certif">
+            <section class="nameandcode">
+                <h2>Ceritification</h2>
+                <img src="" alt="">
+            </section>
+            <h2>For blank</h2>
+            <h2 class="nametext">your name here</h2>
+            <section class="datandname">
+                <h2>Date</h2>
+                <h2>Presented By: </h2>
+            </section>
+        </section>
 
-        <button id="printbut" class="print but">Print</button>
+        <button id="printbut" class="printbut">Print</button>
     </section>
 
     <footer class="footer">

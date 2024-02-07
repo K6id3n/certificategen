@@ -43,23 +43,20 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-}
-
-.inpbox{
-
-    background-color: rgba(255, 255, 255, 0);
-    border-color: black;
+    color: white;
 
 }
 
 .frm{
 
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 20dvh;
-    flex-wrap: wrap;
+
+}
+
+.inprow{
+
+    margin-left: 1dvw;
+    margin-right: 1dvw;
 
 }
 
@@ -72,9 +69,70 @@ body{
 .inptitle{
 
     margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
 
 }
 
+.inp{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.printbut{
+
+    display: flex;
+    margin-bottom: 1dvw;
+
+}
+
+.certif{
+
+    width: 11in;
+    height: 8.5in;
+    background-image: url(imgs/certimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7.5dvw;
+
+}
+
+.nameandcode{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.datandname{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25dvw;
+    margin-top: 6dvw;
+
+}
+
+.nametext{
+
+    margin-top: 2dvw;
+
+}
 
 footer{
 
