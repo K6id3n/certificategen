@@ -26,7 +26,7 @@
 
                             <p class="inplable">Recipient:</p>
 
-                            <input type="text" name="name" id="name" class="inpbox">
+                            <input type="text" name="name" id="input1" class="inpbox">
 
                         </section>
 
@@ -34,7 +34,7 @@
 
                             <p class="inplable">Award Given:</p>
 
-                            <input type="text" name="award" id="award" class="inpbox">
+                            <input type="text" name="award" id="input2" class="inpbox">
 
                         </section>
                     </section>
@@ -44,7 +44,7 @@
 
                             <p class="inplable">Issued By:</p>
 
-                            <input type="text" name="isser" id="isser" class="inpbox">
+                            <input type="text" name="isser" id="input3" class="inpbox">
 
                         </section>
 
@@ -52,27 +52,35 @@
 
                             <p class="inplable">Reveived on:</p>
 
-                            <input type="text" name="date" id="date" class="inpbox">
+                            <input type="text" name="date" id="input4" class="inpbox">
 
                         </section>
                     </section>
                 </section>
-                <button type="submit" class="inpbut"><b>Enter</b></button>
+                <button type="submit" class="inpbut" id="enterBut" onclick="getCertificate()"><b>Enter</b></button>
+                <script src="cert.js"></script>
             </form>
         </section>
     </section>
     <section class="content">
         <h2>Certificate appears here</h2>
-        <section class="certif">
-            <section class="nameandcode">
-                <h2>Certification</h2>
-                <img src="" alt="">
-            </section>
-            <h2>For blank</h2>
-            <h2 class="nametext">your name here</h2>
-            <section class="datandname">
-                <h2>Date</h2>
-                <h2>Presented By: </h2>
+        <section>
+            <section class="cert">
+                <section class="certext1 certextmain">
+                    <p>Award</p>
+                </section>
+                <section class="certext2 certextmain">
+                    <p>For</p>
+                </section>
+                <section class="certext3 certextmain">
+                    <p>Name</p>
+                </section>
+                <section class="certext4 certextmain">
+                    <p>Issued by</p>
+                </section>
+                <section class="certext5 certextmain">
+                    <p>Date</p>
+                </section>
             </section>
         </section>
 
@@ -81,7 +89,7 @@
 
     <footer class="footer">
         <p>Created by Kaiden Garza</p>
-        <a href="https://github.com/K6id3n/certificategen" class="gitlogo">
+        <a href="https://github.com/K6id3n/certificategen" class="gitlogo" id="certifback">
             <img src="imgs/GitHub.png" alt="githublogo">
         </a>
     </footer>
