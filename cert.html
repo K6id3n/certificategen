@@ -12,7 +12,7 @@
 
     <nav class="nav">
         <h1 class="title">Gen.cir</h1>
-        <img src="imgs/Menu.png" alt="menubutton" class="menubut">
+        <a href="index.html"><img src="imgs/Menu.png" alt="menubutton" class="menubut"></a>
     </nav>
 
     <section class="inpcont">
@@ -32,10 +32,14 @@
 
                         <section class="inp">
 
-                            <p class="inplable">Award Given:</p>
+                            <p class="inplable">Certification:</p>
 
-                            <input type="text" name="award" id="input2" class="inpbox">
-
+                            <input list="codecerts" name="award" id="input2" class="inpbox">
+                            <datalist id="codecerts">
+                                <option value="HTML">
+                                <option value="CSS">
+                                <option value="JavaScript">
+                            </datalist>
                         </section>
                     </section>
 
@@ -45,7 +49,6 @@
                             <p class="inplable">Issued By:</p>
 
                             <input type="text" name="isser" id="input3" class="inpbox">
-
                         </section>
 
                         <section class="inp">
@@ -90,7 +93,7 @@
             </section>
         </section>
 
-        <button id="printbut" class="printbut">Print</button>
+        <button id="printBut" class="printbut">Print</button>
     </section>
 
     <footer class="footer">

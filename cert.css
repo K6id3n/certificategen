@@ -147,6 +147,15 @@ body{
 
 }
 
+
+.certextmainmain{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .cert{
 
     display: flex;
@@ -171,6 +180,11 @@ body{
 
 .certext3{
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60dvw;
+    
     font-size: 60%;
     margin: 2dvh;
 
@@ -188,6 +202,36 @@ body{
 
 }
 
+.devimg{
+
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.printbut{
+
+    color: white;
+    width: 10dvw;
+    border: 2px solid black;
+    padding: 0.5dvh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:  hwb(0 0% 100% / 0.664);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.printbut:hover{
+
+    background-color:  hwb(0 0% 100% / 0.808);
+
+}
 .botrow{
 
     display: flex;
@@ -272,7 +316,8 @@ footer{
         display: flex;
         justify-content: space-between;
         width: 30dvw;
-        margin-top: 1dvh;
+        margin-top: 2dvh;
+        margin-bottom: 0dvh;
 
     }
 

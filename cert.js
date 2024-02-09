@@ -34,3 +34,11 @@ function getCertificate() {
     dateFinal.textContent = output4;
 
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  var printButton = document.getElementById("printBut");
+
+  printButton.addEventListener("click", function() {
+    window.print();
+  });
+});
